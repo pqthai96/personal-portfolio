@@ -20,7 +20,6 @@ function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
         I decided to pursue my passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development at FPT Aptech</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
@@ -37,7 +36,7 @@ function About() {
       </p>
       <p>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        <span className="italic">When I'm not coding</span>, I about outdoor travel, exploring remote natural areas, and challenging myself through hiking and mountain climbing experiences.
+        <span className="italic">When I'm not coding</span>, I enjoy about outdoor travel, exploring remote natural areas, and challenging myself through hiking and mountain climbing experiences.
       </p>
     </motion.section>
   );

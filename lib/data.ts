@@ -73,7 +73,7 @@ export const projectsData = [
     title: "Ovation Ticket Show",
     description:
       "Using Java Spring Boot to handle server side logic, MySQL as the database and using React & Next.js, Tailwind CSS to build UI, manage state with Redux",
-    tags: ["React", "TypeScript", "Next.js", "Redux", "Java", "Spring Boot", "MySQL"],
+    tags: ["React", "TypeScript", "Next.js", "Redux", "Java", "Java Spring Boot", "MySQL"],
     imageUrl: ovationImg,
   },
   // {
