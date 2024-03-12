@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  --line-color: #e5e7eb
+  --line-color: #e5e7eb;
 }
 
 html.dark {
@@ -11,5 +11,5 @@ html.dark {
 }
 
 .borderBlack {
-  @apply border border-black/10
+  @apply border border-black/10;
 }
