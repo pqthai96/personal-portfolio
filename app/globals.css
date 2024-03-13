@@ -13,3 +13,7 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.vertical-timeline-element-date {
+  @apply px-3 !important;
+}

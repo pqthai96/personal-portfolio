@@ -1,9 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import {CgWorkAlt} from "react-icons/cg";
+import {LuGraduationCap} from "react-icons/lu";
 import omrImg from "@/public/omr.png";
 import ovationImg from "@/public/ovation.png";
 
@@ -44,21 +41,13 @@ export const experiencesData = [
     date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Internship Front-End Developer",
+    location: "Smart Loyalty",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as an internship front-end developer. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2024",
-  },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "Houston, TX",
-  //   description:
-  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2021 - present",
-  // },
+    date: "11/2023 - 03/2024",
+  }
 ] as const;
 
 export const projectsData = [
@@ -75,14 +64,7 @@ export const projectsData = [
       "Using Java Spring Boot to handle server side logic, MySQL as the database and using React & Next.js, Tailwind CSS to build UI, manage state with Redux",
     tags: ["React", "TypeScript", "Next.js", "Redux", "Java", "Java Spring Boot", "MySQL"],
     imageUrl: ovationImg,
-  },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  }
 ] as const;
 
 export const skillsData = [
